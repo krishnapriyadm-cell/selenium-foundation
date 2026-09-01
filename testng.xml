@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BankingSuite" parallel="classes" thread-count="2">
+
+    <test name="LoginModule">
+        <classes>
+           <class name="com.qa.selenium.ParallelPracticeTest"/>
+           <class name="com.qa.selenium.PaymentTest"/>
+        </classes>
+    </test>
+  </suite>
