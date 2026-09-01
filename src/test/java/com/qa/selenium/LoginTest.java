@@ -12,7 +12,7 @@
 		    @Test(groups = "smoke")
 		    public void verifyLogin() {
 		        System.out.println("TestNG setup verified");
-		        System.out.println("Login branch practice");
+		        System.out.println("Main branch version");
 		    }
 
 		    
