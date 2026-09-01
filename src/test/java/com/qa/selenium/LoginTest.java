@@ -13,6 +13,9 @@
 		    public void verifyLogin() {
 		        System.out.println("TestNG setup verified");
 		        System.out.println("Main branch version");
+		        System.out.println("Login branch practice");
+		        System.out.println("Conflict branch version");
+
 		    }
 
 		    
