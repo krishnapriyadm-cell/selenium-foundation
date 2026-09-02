@@ -18,7 +18,7 @@ pipeline {
             steps {
                 junit '**/surefire-reports/*.xml'
             }
-        }
+        }}
          post {
         always {
             echo 'Pipeline execution completed'
@@ -32,5 +32,5 @@ pipeline {
             echo 'Automation tests failed'
         }
     }
-    }
+    
 }
