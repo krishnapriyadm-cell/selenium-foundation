@@ -19,5 +19,18 @@ pipeline {
                 junit '**/surefire-reports/*.xml'
             }
         }
+         post {
+        always {
+            echo 'Pipeline execution completed'
+        }
+
+        success {
+            echo 'Automation tests passed'
+        }
+
+        failure {
+            echo 'Automation tests failed'
+        }
+    }
     }
 }
