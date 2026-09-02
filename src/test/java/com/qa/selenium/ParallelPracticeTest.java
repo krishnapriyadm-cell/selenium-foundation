@@ -3,7 +3,7 @@ package com.qa.selenium;
 import org.testng.annotations.Test;
 
 public class ParallelPracticeTest {
-
+	// Jenkins SCM polling practice
     @Test
     public void verifyLogin() {
 System.out.println(
